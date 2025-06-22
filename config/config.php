@@ -1,8 +1,8 @@
 <?php
 
 // Avoiding to access congig.php
-if(!isset($_SERVER['HTTP_REFERER'])){
-   header("location: index.php");
+if (!isset($_SERVER['HTTP_REFERER'])) {
+   header("location: http://localhost/ya/php/food-ordering-ecom/index.php");
    exit;
 }
 
